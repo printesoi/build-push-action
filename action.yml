@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 runs:
   using: docker
-  image: docker://docker/github-actions:v1
+  image: docker://printesoi/docker-github-actions:v1
   args:
     - build-push
 inputs:
@@ -64,3 +64,6 @@ inputs:
     description: Whether to push the image
     required: false
     default: true
+  secrets:
+    description: YAML array of id,src secrets
+    dequired: false
