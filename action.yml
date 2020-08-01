@@ -1,6 +1,6 @@
-name: Build and push Docker images
+name: Build and push Docker images (fork from Docker)
 description: Builds and pushes Docker images and will log in to a Docker registry if required
-author: Docker
+author: Victor Dodon
 branding:
   icon: 'anchor'
   color: 'blue'
