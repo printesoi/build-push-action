@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 runs:
   using: docker
-  image: docker://printesoi/docker-github-actions:v1
+  image: docker://printesoi/docker-github-actions:v1.1.2
   args:
     - build-push
 inputs:
